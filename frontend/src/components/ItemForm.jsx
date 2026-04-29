@@ -43,6 +43,14 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
         required
       />
 
+      <input
+        type="text"
+        name="color"
+        value={formData.color}
+        onChange={handleChange}
+        placeholder="Color"
+      />
+
       <label>Description</label>
       <textarea
         name="description"
