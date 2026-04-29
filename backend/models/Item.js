@@ -27,11 +27,6 @@ const itemSchema = new mongoose.Schema(
       default: "",
       trim: true,
     },
-    color: {
-      type: String,
-      default: "",
-      trim: true,
-    },
   },
   { timestamps: true }
 );
